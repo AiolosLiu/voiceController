@@ -1,0 +1,1 @@
+This project is using voice to control Robot. Those are two ways to do it. First, we use Amazon Alexa and Lambda function to send the Http request to the local server, and call the local python scripts; and another way is using caffe2 to recognise the voice.
