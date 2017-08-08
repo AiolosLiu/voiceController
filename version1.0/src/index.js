@@ -5,7 +5,7 @@ var http       = require("http");
 var findAction = require("./findByNameAction.js");
 var moveAction = require("./moveAction.js");
 
-var APP_ID = 'amzn1.ask.skill.34397254-830b-4473-9486-c8c3037f7553';
+var APP_ID = '';
 exports.handler = function(event, context, callback){
     var alexa   = Alexa.handler(event,context);
     alexa.appId = APP_ID;
